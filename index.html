@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello World</title>
+  <script src="https://unpkg.com/react@17/umd/react.development.js%22%3E</script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js%22%3E</script>
+
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js%22%3E</script>
+</head>
+<body>
+<div id="root"></div>
+  <script type="text/babel">
+
+    ReactDOM.render(
+      <h1>Hello 02363 class</h1>,
+      document.getElementById('root')
+    );
+
+  </script>
+  </body>
+</html>
+
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Tæller op hver gang du klikker !</title>
+</head>
+
+<body style="text-align: center;">
+
+<button id="btn">Tryk på mig</button>
+
+<p>
+  Du har klikket <span
+  id="display">0</span> Gange
+</p>
+
+<script type="text/javascript">
+  var count = 0;
+  var btn = document.getElementById("btn");
+  var disp = document.getElementById("display");
+
+  btn.onclick = function () {
+    count++;
+    disp.innerHTML = count;
+  }
+</script>
+</body>
+
+</html>
